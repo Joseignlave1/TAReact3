@@ -1,0 +1,43 @@
+.component-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.task-list {
+    margin-right: 2rem;
+}
+#text, p{
+    color: white;
+    font-size: 2rem;
+}
+#tarea {
+    margin-top: 4rem;
+    height: 2.5rem;
+    width: 16rem;
+    border: none;
+    border-radius: 2rem;
+}
+#task-item {
+    text-align: center;
+}
+#button-delete-task {
+    background-color: skyblue;
+    font-size: 1.4rem;
+    border: none;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+
+#button-delete-task:hover {
+    cursor: pointer;
+}
+
+#button-add-task {
+    background-color: skyblue;
+    font-size: 1.4rem;
+    border: none;
+    border-radius: 2rem;
+    cursor: pointer;
+    margin-top: 2rem;
+    margin-right: 2rem;
+}
